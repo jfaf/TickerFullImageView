@@ -16,7 +16,7 @@ class MatchDetailImagePresenting: MatchDetailImageState {
     let previousAvailable: Bool
 
     
-    init(withHero matchDetailImage: MatchDetailImage, nextAvailable next: Bool, previousAvailable previous: Bool) {
+    init(withMatchDetail matchDetailImage: MatchDetailImage, nextAvailable next: Bool, previousAvailable previous: Bool) {
         self.matchDetailImage = matchDetailImage
         self.nextAvailable = next
         self.previousAvailable = previous

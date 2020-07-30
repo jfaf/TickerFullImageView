@@ -18,6 +18,7 @@
 		2276B45024D3111400C2D4D7 /* MatchDetailImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2276B44F24D3111400C2D4D7 /* MatchDetailImage.swift */; };
 		2276B45324D3125B00C2D4D7 /* MatchDetailImageState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2276B45224D3125B00C2D4D7 /* MatchDetailImageState.swift */; };
 		2276B45524D314D500C2D4D7 /* MatchDetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2276B45424D314D500C2D4D7 /* MatchDetailRepository.swift */; };
+		2276B45924D317EE00C2D4D7 /* MatchDetailIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2276B45824D317EE00C2D4D7 /* MatchDetailIntent.swift */; };
 		3D950D6A477831513B1ED205 /* Pods_TickerFullImageView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7945B263A56F948C78F5174 /* Pods_TickerFullImageView.framework */; };
 		C020353D8FA87BACC48BD343 /* Pods_TickerFullImageView_TickerFullImageViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2508184F644BCA2D085576CD /* Pods_TickerFullImageView_TickerFullImageViewUITests.framework */; };
 		F579078B27A5389E50D290E0 /* Pods_TickerFullImageViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC9A28AF3E94BECC7B5A884 /* Pods_TickerFullImageViewTests.framework */; };
@@ -59,6 +60,7 @@
 		2276B44F24D3111400C2D4D7 /* MatchDetailImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailImage.swift; sourceTree = "<group>"; };
 		2276B45224D3125B00C2D4D7 /* MatchDetailImageState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailImageState.swift; sourceTree = "<group>"; };
 		2276B45424D314D500C2D4D7 /* MatchDetailRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailRepository.swift; sourceTree = "<group>"; };
+		2276B45824D317EE00C2D4D7 /* MatchDetailIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailIntent.swift; sourceTree = "<group>"; };
 		2508184F644BCA2D085576CD /* Pods_TickerFullImageView_TickerFullImageViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TickerFullImageView_TickerFullImageViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7B979947C0716591E5DEFD /* Pods-TickerFullImageView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TickerFullImageView.debug.xcconfig"; path = "Target Support Files/Pods-TickerFullImageView/Pods-TickerFullImageView.debug.xcconfig"; sourceTree = "<group>"; };
 		6EE2D6859D49B597E7409FE6 /* Pods-TickerFullImageViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TickerFullImageViewTests.debug.xcconfig"; path = "Target Support Files/Pods-TickerFullImageViewTests/Pods-TickerFullImageViewTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 		2276B41D24D30FC100C2D4D7 /* TickerFullImageView */ = {
 			isa = PBXGroup;
 			children = (
+				2276B45724D317D200C2D4D7 /* Intents */,
 				2276B45624D314D900C2D4D7 /* Repositories */,
 				2276B45124D3124800C2D4D7 /* States */,
 				2276B44E24D310F800C2D4D7 /* Models */,
@@ -186,6 +189,14 @@
 				2276B45424D314D500C2D4D7 /* MatchDetailRepository.swift */,
 			);
 			path = Repositories;
+			sourceTree = "<group>";
+		};
+		2276B45724D317D200C2D4D7 /* Intents */ = {
+			isa = PBXGroup;
+			children = (
+				2276B45824D317EE00C2D4D7 /* MatchDetailIntent.swift */,
+			);
+			path = Intents;
 			sourceTree = "<group>";
 		};
 		D67073E67EC0785C445C0B63 /* Pods */ = {
@@ -442,6 +453,7 @@
 			files = (
 				2276B45524D314D500C2D4D7 /* MatchDetailRepository.swift in Sources */,
 				2276B45024D3111400C2D4D7 /* MatchDetailImage.swift in Sources */,
+				2276B45924D317EE00C2D4D7 /* MatchDetailIntent.swift in Sources */,
 				2276B45324D3125B00C2D4D7 /* MatchDetailImageState.swift in Sources */,
 				2276B42324D30FC100C2D4D7 /* ViewController.swift in Sources */,
 				2276B41F24D30FC100C2D4D7 /* AppDelegate.swift in Sources */,
