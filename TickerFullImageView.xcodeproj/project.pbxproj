@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,10 @@
 		2276B42B24D30FC600C2D4D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2276B42924D30FC600C2D4D7 /* LaunchScreen.storyboard */; };
 		2276B43624D30FC600C2D4D7 /* TickerFullImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2276B43524D30FC600C2D4D7 /* TickerFullImageViewTests.swift */; };
 		2276B44124D30FC600C2D4D7 /* TickerFullImageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2276B44024D30FC600C2D4D7 /* TickerFullImageViewUITests.swift */; };
+		2276B45024D3111400C2D4D7 /* MatchDetailImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2276B44F24D3111400C2D4D7 /* MatchDetailImage.swift */; };
+		3D950D6A477831513B1ED205 /* Pods_TickerFullImageView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7945B263A56F948C78F5174 /* Pods_TickerFullImageView.framework */; };
+		C020353D8FA87BACC48BD343 /* Pods_TickerFullImageView_TickerFullImageViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2508184F644BCA2D085576CD /* Pods_TickerFullImageView_TickerFullImageViewUITests.framework */; };
+		F579078B27A5389E50D290E0 /* Pods_TickerFullImageViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC9A28AF3E94BECC7B5A884 /* Pods_TickerFullImageViewTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1166BD6BA19F34286DD49C7B /* Pods-TickerFullImageView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TickerFullImageView.release.xcconfig"; path = "Target Support Files/Pods-TickerFullImageView/Pods-TickerFullImageView.release.xcconfig"; sourceTree = "<group>"; };
 		2276B41B24D30FC100C2D4D7 /* TickerFullImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TickerFullImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2276B41E24D30FC100C2D4D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2276B42024D30FC100C2D4D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,15 @@
 		2276B43C24D30FC600C2D4D7 /* TickerFullImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TickerFullImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2276B44024D30FC600C2D4D7 /* TickerFullImageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerFullImageViewUITests.swift; sourceTree = "<group>"; };
 		2276B44224D30FC600C2D4D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2276B44F24D3111400C2D4D7 /* MatchDetailImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailImage.swift; sourceTree = "<group>"; };
+		2508184F644BCA2D085576CD /* Pods_TickerFullImageView_TickerFullImageViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TickerFullImageView_TickerFullImageViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7B979947C0716591E5DEFD /* Pods-TickerFullImageView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TickerFullImageView.debug.xcconfig"; path = "Target Support Files/Pods-TickerFullImageView/Pods-TickerFullImageView.debug.xcconfig"; sourceTree = "<group>"; };
+		6EE2D6859D49B597E7409FE6 /* Pods-TickerFullImageViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TickerFullImageViewTests.debug.xcconfig"; path = "Target Support Files/Pods-TickerFullImageViewTests/Pods-TickerFullImageViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6AFA87A9947EC3AFF0FAC2A /* Pods-TickerFullImageView-TickerFullImageViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TickerFullImageView-TickerFullImageViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-TickerFullImageView-TickerFullImageViewUITests/Pods-TickerFullImageView-TickerFullImageViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8C25F7020A15DED7D48656B /* Pods-TickerFullImageView-TickerFullImageViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TickerFullImageView-TickerFullImageViewUITests.release.xcconfig"; path = "Target Support Files/Pods-TickerFullImageView-TickerFullImageViewUITests/Pods-TickerFullImageView-TickerFullImageViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BB9A4E7C7CD7ED070DDBAA7B /* Pods-TickerFullImageViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TickerFullImageViewTests.release.xcconfig"; path = "Target Support Files/Pods-TickerFullImageViewTests/Pods-TickerFullImageViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		DBC9A28AF3E94BECC7B5A884 /* Pods_TickerFullImageViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TickerFullImageViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7945B263A56F948C78F5174 /* Pods_TickerFullImageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TickerFullImageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D950D6A477831513B1ED205 /* Pods_TickerFullImageView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F579078B27A5389E50D290E0 /* Pods_TickerFullImageViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C020353D8FA87BACC48BD343 /* Pods_TickerFullImageView_TickerFullImageViewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E522EE4BD94BC97B8502622 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7945B263A56F948C78F5174 /* Pods_TickerFullImageView.framework */,
+				2508184F644BCA2D085576CD /* Pods_TickerFullImageView_TickerFullImageViewUITests.framework */,
+				DBC9A28AF3E94BECC7B5A884 /* Pods_TickerFullImageViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2276B41224D30FC100C2D4D7 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,8 @@
 				2276B43424D30FC600C2D4D7 /* TickerFullImageViewTests */,
 				2276B43F24D30FC600C2D4D7 /* TickerFullImageViewUITests */,
 				2276B41C24D30FC100C2D4D7 /* Products */,
+				D67073E67EC0785C445C0B63 /* Pods */,
+				1E522EE4BD94BC97B8502622 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +128,7 @@
 		2276B41D24D30FC100C2D4D7 /* TickerFullImageView */ = {
 			isa = PBXGroup;
 			children = (
+				2276B44E24D310F800C2D4D7 /* Models */,
 				2276B41E24D30FC100C2D4D7 /* AppDelegate.swift */,
 				2276B42024D30FC100C2D4D7 /* SceneDelegate.swift */,
 				2276B42224D30FC100C2D4D7 /* ViewController.swift */,
@@ -128,6 +158,27 @@
 			path = TickerFullImageViewUITests;
 			sourceTree = "<group>";
 		};
+		2276B44E24D310F800C2D4D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2276B44F24D3111400C2D4D7 /* MatchDetailImage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D67073E67EC0785C445C0B63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E7B979947C0716591E5DEFD /* Pods-TickerFullImageView.debug.xcconfig */,
+				1166BD6BA19F34286DD49C7B /* Pods-TickerFullImageView.release.xcconfig */,
+				B6AFA87A9947EC3AFF0FAC2A /* Pods-TickerFullImageView-TickerFullImageViewUITests.debug.xcconfig */,
+				B8C25F7020A15DED7D48656B /* Pods-TickerFullImageView-TickerFullImageViewUITests.release.xcconfig */,
+				6EE2D6859D49B597E7409FE6 /* Pods-TickerFullImageViewTests.debug.xcconfig */,
+				BB9A4E7C7CD7ED070DDBAA7B /* Pods-TickerFullImageViewTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2276B44524D30FC600C2D4D7 /* Build configuration list for PBXNativeTarget "TickerFullImageView" */;
 			buildPhases = (
+				ABF362812C15CD28BD445FE2 /* [CP] Check Pods Manifest.lock */,
 				2276B41724D30FC100C2D4D7 /* Sources */,
 				2276B41824D30FC100C2D4D7 /* Frameworks */,
 				2276B41924D30FC100C2D4D7 /* Resources */,
+				6BC53A5CF2ADAF2E34E2E534 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2276B44824D30FC600C2D4D7 /* Build configuration list for PBXNativeTarget "TickerFullImageViewTests" */;
 			buildPhases = (
+				DD3EA2A51E20D2EB1F5D0EC2 /* [CP] Check Pods Manifest.lock */,
 				2276B42D24D30FC600C2D4D7 /* Sources */,
 				2276B42E24D30FC600C2D4D7 /* Frameworks */,
 				2276B42F24D30FC600C2D4D7 /* Resources */,
@@ -170,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2276B44B24D30FC600C2D4D7 /* Build configuration list for PBXNativeTarget "TickerFullImageViewUITests" */;
 			buildPhases = (
+				EB74ED36565B9ACE932F4607 /* [CP] Check Pods Manifest.lock */,
 				2276B43824D30FC600C2D4D7 /* Sources */,
 				2276B43924D30FC600C2D4D7 /* Frameworks */,
 				2276B43A24D30FC600C2D4D7 /* Resources */,
+				E74D910BB7408700CE2C0784 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,11 +310,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6BC53A5CF2ADAF2E34E2E534 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TickerFullImageView/Pods-TickerFullImageView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TickerFullImageView/Pods-TickerFullImageView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TickerFullImageView/Pods-TickerFullImageView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABF362812C15CD28BD445FE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TickerFullImageView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD3EA2A51E20D2EB1F5D0EC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TickerFullImageViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E74D910BB7408700CE2C0784 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TickerFullImageView-TickerFullImageViewUITests/Pods-TickerFullImageView-TickerFullImageViewUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TickerFullImageView-TickerFullImageViewUITests/Pods-TickerFullImageView-TickerFullImageViewUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TickerFullImageView-TickerFullImageViewUITests/Pods-TickerFullImageView-TickerFullImageViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB74ED36565B9ACE932F4607 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TickerFullImageView-TickerFullImageViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2276B41724D30FC100C2D4D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2276B45024D3111400C2D4D7 /* MatchDetailImage.swift in Sources */,
 				2276B42324D30FC100C2D4D7 /* ViewController.swift in Sources */,
 				2276B41F24D30FC100C2D4D7 /* AppDelegate.swift in Sources */,
 				2276B42124D30FC100C2D4D7 /* SceneDelegate.swift in Sources */,
@@ -432,6 +592,7 @@
 		};
 		2276B44624D30FC600C2D4D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E7B979947C0716591E5DEFD /* Pods-TickerFullImageView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +610,7 @@
 		};
 		2276B44724D30FC600C2D4D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1166BD6BA19F34286DD49C7B /* Pods-TickerFullImageView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +628,7 @@
 		};
 		2276B44924D30FC600C2D4D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE2D6859D49B597E7409FE6 /* Pods-TickerFullImageViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +650,7 @@
 		};
 		2276B44A24D30FC600C2D4D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB9A4E7C7CD7ED070DDBAA7B /* Pods-TickerFullImageViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +672,7 @@
 		};
 		2276B44C24D30FC600C2D4D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6AFA87A9947EC3AFF0FAC2A /* Pods-TickerFullImageView-TickerFullImageViewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +692,7 @@
 		};
 		2276B44D24D30FC600C2D4D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8C25F7020A15DED7D48656B /* Pods-TickerFullImageView-TickerFullImageViewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
