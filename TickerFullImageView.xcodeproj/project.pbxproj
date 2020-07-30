@@ -134,13 +134,13 @@
 		2276B41D24D30FC100C2D4D7 /* TickerFullImageView */ = {
 			isa = PBXGroup;
 			children = (
+				2276B45A24D34DF700C2D4D7 /* Views */,
 				2276B45724D317D200C2D4D7 /* Intents */,
 				2276B45624D314D900C2D4D7 /* Repositories */,
 				2276B45124D3124800C2D4D7 /* States */,
 				2276B44E24D310F800C2D4D7 /* Models */,
 				2276B41E24D30FC100C2D4D7 /* AppDelegate.swift */,
 				2276B42024D30FC100C2D4D7 /* SceneDelegate.swift */,
-				2276B42224D30FC100C2D4D7 /* ViewController.swift */,
 				2276B42424D30FC100C2D4D7 /* Main.storyboard */,
 				2276B42724D30FC600C2D4D7 /* Assets.xcassets */,
 				2276B42924D30FC600C2D4D7 /* LaunchScreen.storyboard */,
@@ -197,6 +197,14 @@
 				2276B45824D317EE00C2D4D7 /* MatchDetailIntent.swift */,
 			);
 			path = Intents;
+			sourceTree = "<group>";
+		};
+		2276B45A24D34DF700C2D4D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2276B42224D30FC100C2D4D7 /* ViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		D67073E67EC0785C445C0B63 /* Pods */ = {

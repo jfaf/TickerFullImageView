@@ -9,6 +9,7 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import Kingfisher
 
 class ViewController: UIViewController {
     
@@ -41,6 +42,7 @@ class ViewController: UIViewController {
         
         private func showPresentState(withPresentState state: MatchDetailImagePresenting) {
             let matchDetailImage = state.matchDetailImage
+            getImage(imageUrl: matchDetailImage.imageUrl)
             imageCaption.text = matchDetailImage.imageCaption
             nextImage.isEnabled = state.nextAvailable
             previousImage.isEnabled = state.previousAvailable
@@ -59,6 +61,12 @@ class ViewController: UIViewController {
             
           
         }
+    
+    private func getImage(imageUrl : String){
+        
+        let url = URL(string: imageUrl)
+        image.kf.setImage(with: url)
+    }
         
 }
 
