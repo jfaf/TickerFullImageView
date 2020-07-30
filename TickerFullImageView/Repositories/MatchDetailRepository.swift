@@ -20,10 +20,10 @@ class MatchDetailRepository {
     
     init() {
         matchDetailImage = [
-            MatchDetailImage("test.com", imageId: 0, imageCaption: "test0"),
-            MatchDetailImage("test.com", imageId: 1, imageCaption: "test1"),
-            MatchDetailImage("test.com", imageId: 2, imageCaption: "test2"),
-            MatchDetailImage("test.com", imageId: 3, imageCaption: "test3")
+            MatchDetailImage(imageUrl: "test.com", imageId: "0", imageCaption: "test0"),
+            MatchDetailImage(imageUrl: "test.com", imageId: "1", imageCaption: "test1"),
+            MatchDetailImage(imageUrl: "test.com", imageId: "2", imageCaption: "test2"),
+            MatchDetailImage(imageUrl: "test.com", imageId: "3", imageCaption: "test3")
         ]
     }
     
@@ -33,8 +33,8 @@ class MatchDetailRepository {
         return matchDetailImage[id]
     }
     
-    public func getPreviousMatchDetailImage() -> Hero? {
-        if !isPreviousHeroAvailable() { return nil }
+    public func getPreviousMatchDetailImage() -> MatchDetailImage? {
+        if !isPreviousMatchDetailImageAvailable() { return nil }
         id -= 1
         return matchDetailImage[id]
     }
