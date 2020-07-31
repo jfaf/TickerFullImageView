@@ -10,7 +10,7 @@ import Foundation
 
 class MatchDetailRepository {
     // MARK: State
-    let matchDetailImage: [MatchDetailImage]
+    var matchDetailImage: [MatchDetailImage]
     var id: Int = 0
     
     // MARK: Properties
@@ -25,6 +25,15 @@ class MatchDetailRepository {
             MatchDetailImage(imageUrl: "https://firebasestorage.googleapis.com/v0/b/ticker-38d84.appspot.com/o/VSYJ5HW59TXoeeIA0dOOOXb5BHt11592770830Timestamp(seconds%3D1591648074%2C%20nanoseconds%3D412000000)?alt=media&token=5edbeaa6-ca1e-4eed-8053-614d8ad849be", imageId: "2", imageCaption: "test2"),
             MatchDetailImage(imageUrl: "https://firebasestorage.googleapis.com/v0/b/ticker-38d84.appspot.com/o/VSYJ5HW59TXoeeIA0dOOOXb5BHt1911219946Timestamp(seconds%3D1591648074%2C%20nanoseconds%3D411000000)?alt=media&token=0364652b-b481-4792-8285-a72e4e116a9f", imageId: "3", imageCaption: "test3")
         ]
+        
+        sortMatchDetailImage()
+        
+    }
+    
+    private func sortMatchDetailImage(){
+        
+        self.matchDetailImage = matchDetailImage.sortByDescending({$0.imageId})
+        
     }
     
     private func getNextMatchDetailImage() -> MatchDetailImage? {
